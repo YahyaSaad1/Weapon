@@ -230,12 +230,12 @@ function App() {
             <>
               {currentTab === 'inventory' && (
                 <>
-                  <button 
+                   {/* <button 
                     onClick={uploadInitialData}
                     className="mb-4 bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-4 rounded shadow-md"
                   >
                     🚀 رفع البيانات الأولية للفايربيس (مرة واحدة)
-                  </button>
+                  </button> */}
                   <FilterBar 
                     searchTerm={searchTerm} 
                     setSearchTerm={setSearchTerm} 
